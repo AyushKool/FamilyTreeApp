@@ -1,29 +1,36 @@
 import React from "react";
 
-function Single(props) {
-  let modal = document.getElementById('singleModal')
-  const handleClick = () => {
-    modal.style.display = 'block'
+export default class Couple extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: this.props.name,
+      gender: this.props.gender,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  let submitbtn = document.getElementById("singlesubmitbtn");
-  let info = {
-    name : props.name,
-    gender : props.gender
+  handleClick() {
+    const newState = this.state
+    const modal = document.getElementById('singleModal');
+    modal.style.display = 'block';
+    const submitbtn = document.getElementById('singlesubmitbtn');
+    submitbtn.onClick = (event) => {
+      event.preventDefault()
+      modal.style.display = 'none'
+      newState.husband = document.getElementById('name').value;
+      newState.wife = document.getElementById('gender').value;
+    }
+    this.setState(newState);
   }
-  submitbtn.onclick = () => {
-    modal.style.display = 'none';
-    info.name = document.getElementById("name").value;
-    info.gender = document.getElementById("gender").value;
-    alert(info.name + ' ' + info.gender)
-  };
-  return (
-    <li>
-      <div onClick={handleClick}>
-        <span className={info.gender}>{info.name}</span>
-      </div>
-    </li>
-  );
+
+  render() {
+    return (
+      <li>
+        <div onClick={this.handleClick}>
+          <span className={this.state.gender}>{this.state.name}</span>
+        </div>
+      </li>
+    );
+  }
 }
-
-export default Single;

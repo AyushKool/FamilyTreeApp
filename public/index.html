@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <title>Family Tree App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+
   <div class="tree" id="FamilyTreeDiv"></div>
 
   <div id="key" display='table'>
@@ -26,7 +26,7 @@
   <!-- Single Modal Popup -->
   <div id="singleModal" class="modal">
     <div class="modal-content">
-      <span class="close" id='singleclose'>&times;</span>
+      <span class="close">&times;</span>
       <form class = 'form'>
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name..">
@@ -44,42 +44,19 @@
   <!-- Couple Modal Popup -->
   <div id="coupleModal" class="modal">
     <div class="modal-content">
-      <span class="close" id='coupleclose'>&times;</span>
+      <span class="close">&times;</span>
       <form class='form'>
         <label for="hname">Name of Husband</label>
         <input type="text" id="hname" name="hname" placeholder="Husband's name...">
 
         <label for="wname">Name of Wife</label>
-        <input type="text" id="hname" name="wname" placeholder="Wife's name..">
+        <input type="text" id="wname" name="wname" placeholder="Wife's name..">
 
         <input type="submit" value="Submit" class='submit' id='couplesubmitbtn'>
       </form>
     </div>
   </div>
-
-  <script>
-    // Get the modal
-    var smodal = document.getElementById("singleModal");
-    var cmodal = document.getElementById("coupleModal");
-    // Get the <span> element that closes the modal
-    var spans = document.getElementsByClassName("close");
-    // When the user clicks on <span> (x), close the modal
-
-    for (var i = 0; i < spans.length; ++i) {
-      spans[i].onclick = function () {
-        smodal.style.display = "none";
-        cmodal.style.display = "none";
-      }
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-      if (event.target === smodal || event.target === cmodal) {
-        smodal.style.display = "none";
-        cmodal.style.display = "none";
-      }
-    }
-  </script>
+  
 </body>
 
 </html>

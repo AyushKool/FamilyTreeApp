@@ -1,21 +1,23 @@
 import React from "react";
 import Couple from "./Couple";
 import Single from "./Single";
-function App() {
-  return (
-    <div className="App">
-      <ul>
-        <Couple husband="Jim" wife="Pam">
-          <Single name="Bob" gender="male" />
-          <Single name="Cody" gender="male" />
-          <Couple husband="James" wife="Sarah">
-            <Single name="Luffy" gender="male" />
-            <Couple husband = 'Zoro' wife = 'Nami'/>
-          </Couple>
-        </Couple>
-      </ul>
-    </div>
-  );
-}
 
-export default App;
+
+
+export default class App extends React.Component {
+  //2:46:00 freeCodeCamp video
+  // State vs Props: https://lucybain.com/blog/2016/react-state-vs-pros/
+
+  render() {
+    return (
+      <div className="App">
+        <ul>
+          <Single name="Luffy" gender="male" />
+          <Couple husband="Zoro" wife="Nami">
+            <Single name="Robin" gender="female" />
+          </Couple>
+        </ul>
+      </div>
+    );
+  }
+}
