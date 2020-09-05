@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AyushKool/FamilyTreeApp.git/precache-manifest.3286845171b7a1ce8a07a45dae36203f.js"
+  "/AyushKool/FamilyTreeApp.git/precache-manifest.7f00e6b9df21cb2b65d43e31b7ec77d0.js"
 );
 
 self.addEventListener('message', (event) => {

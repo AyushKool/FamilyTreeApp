@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cd176fbb40247fe15d59f0a708e3125",
+    "revision": "b9bd4ec556816ab92d191a5148dacee8",
     "url": "/AyushKool/FamilyTreeApp.git/index.html"
   },
   {
-    "revision": "65733efd262b0ca4685a",
+    "revision": "90ddad05c04dc9ff5b63",
     "url": "/AyushKool/FamilyTreeApp.git/static/css/main.c68a1365.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AyushKool/FamilyTreeApp.git/static/js/2.c412faee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65733efd262b0ca4685a",
-    "url": "/AyushKool/FamilyTreeApp.git/static/js/main.60e41e0d.chunk.js"
+    "revision": "90ddad05c04dc9ff5b63",
+    "url": "/AyushKool/FamilyTreeApp.git/static/js/main.4140708a.chunk.js"
   },
   {
     "revision": "fbc8bcdf0d29b69f9547",
