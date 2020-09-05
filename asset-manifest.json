@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AyushKool/FamilyTreeApp.git/static/css/main.450fb92e.chunk.css",
+    "main.js": "/AyushKool/FamilyTreeApp.git/static/js/main.f9b514c9.chunk.js",
+    "main.js.map": "/AyushKool/FamilyTreeApp.git/static/js/main.f9b514c9.chunk.js.map",
+    "runtime-main.js": "/AyushKool/FamilyTreeApp.git/static/js/runtime-main.c75d53fd.js",
+    "runtime-main.js.map": "/AyushKool/FamilyTreeApp.git/static/js/runtime-main.c75d53fd.js.map",
+    "static/js/2.219a14a6.chunk.js": "/AyushKool/FamilyTreeApp.git/static/js/2.219a14a6.chunk.js",
+    "static/js/2.219a14a6.chunk.js.map": "/AyushKool/FamilyTreeApp.git/static/js/2.219a14a6.chunk.js.map",
+    "index.html": "/AyushKool/FamilyTreeApp.git/index.html",
+    "precache-manifest.7685b3c216d78a582ae130fa89d667db.js": "/AyushKool/FamilyTreeApp.git/precache-manifest.7685b3c216d78a582ae130fa89d667db.js",
+    "service-worker.js": "/AyushKool/FamilyTreeApp.git/service-worker.js",
+    "static/css/main.450fb92e.chunk.css.map": "/AyushKool/FamilyTreeApp.git/static/css/main.450fb92e.chunk.css.map",
+    "static/js/2.219a14a6.chunk.js.LICENSE.txt": "/AyushKool/FamilyTreeApp.git/static/js/2.219a14a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c75d53fd.js",
+    "static/js/2.219a14a6.chunk.js",
+    "static/css/main.450fb92e.chunk.css",
+    "static/js/main.f9b514c9.chunk.js"
+  ]
+}
