@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AyushKool/FamilyTreeApp.git/static/css/main.450fb92e.chunk.css",
-    "main.js": "/AyushKool/FamilyTreeApp.git/static/js/main.f9b514c9.chunk.js",
-    "main.js.map": "/AyushKool/FamilyTreeApp.git/static/js/main.f9b514c9.chunk.js.map",
+    "main.css": "/AyushKool/FamilyTreeApp.git/static/css/main.c68a1365.chunk.css",
+    "main.js": "/AyushKool/FamilyTreeApp.git/static/js/main.60e41e0d.chunk.js",
+    "main.js.map": "/AyushKool/FamilyTreeApp.git/static/js/main.60e41e0d.chunk.js.map",
     "runtime-main.js": "/AyushKool/FamilyTreeApp.git/static/js/runtime-main.c75d53fd.js",
     "runtime-main.js.map": "/AyushKool/FamilyTreeApp.git/static/js/runtime-main.c75d53fd.js.map",
-    "static/js/2.219a14a6.chunk.js": "/AyushKool/FamilyTreeApp.git/static/js/2.219a14a6.chunk.js",
-    "static/js/2.219a14a6.chunk.js.map": "/AyushKool/FamilyTreeApp.git/static/js/2.219a14a6.chunk.js.map",
+    "static/js/2.c412faee.chunk.js": "/AyushKool/FamilyTreeApp.git/static/js/2.c412faee.chunk.js",
+    "static/js/2.c412faee.chunk.js.map": "/AyushKool/FamilyTreeApp.git/static/js/2.c412faee.chunk.js.map",
     "index.html": "/AyushKool/FamilyTreeApp.git/index.html",
-    "precache-manifest.7685b3c216d78a582ae130fa89d667db.js": "/AyushKool/FamilyTreeApp.git/precache-manifest.7685b3c216d78a582ae130fa89d667db.js",
+    "precache-manifest.3286845171b7a1ce8a07a45dae36203f.js": "/AyushKool/FamilyTreeApp.git/precache-manifest.3286845171b7a1ce8a07a45dae36203f.js",
     "service-worker.js": "/AyushKool/FamilyTreeApp.git/service-worker.js",
-    "static/css/main.450fb92e.chunk.css.map": "/AyushKool/FamilyTreeApp.git/static/css/main.450fb92e.chunk.css.map",
-    "static/js/2.219a14a6.chunk.js.LICENSE.txt": "/AyushKool/FamilyTreeApp.git/static/js/2.219a14a6.chunk.js.LICENSE.txt"
+    "static/css/main.c68a1365.chunk.css.map": "/AyushKool/FamilyTreeApp.git/static/css/main.c68a1365.chunk.css.map",
+    "static/js/2.c412faee.chunk.js.LICENSE.txt": "/AyushKool/FamilyTreeApp.git/static/js/2.c412faee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c75d53fd.js",
-    "static/js/2.219a14a6.chunk.js",
-    "static/css/main.450fb92e.chunk.css",
-    "static/js/main.f9b514c9.chunk.js"
+    "static/js/2.c412faee.chunk.js",
+    "static/css/main.c68a1365.chunk.css",
+    "static/js/main.60e41e0d.chunk.js"
   ]
 }
