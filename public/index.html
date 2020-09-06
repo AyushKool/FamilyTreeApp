@@ -9,7 +9,7 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
 
-  <div class="tree" id="FamilyTreeDiv"></div>
+  <div class="tree" id="root"></div>
 
   <div id="key" display='table'>
     <div id='male' display='table-row'>
@@ -20,40 +20,6 @@
     <div id='female' display='table-row'>
       <div class='color'></div>
       <h3 class='gender'>Female</h3>
-    </div>
-  </div>
-
-  <!-- Single Modal Popup -->
-  <div id="singleModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <form class = 'form'>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name..">
-
-        <label for="gender">Gender</label>
-        <select id="gender" name="gender">
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-        </select>
-        <input type="submit" value="Submit" class='submit' id='singlesubmitbtn'>
-      </form>
-    </div>
-  </div>
-
-  <!-- Couple Modal Popup -->
-  <div id="coupleModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <form class='form'>
-        <label for="hname">Name of Husband</label>
-        <input type="text" id="hname" name="hname" placeholder="Husband's name...">
-
-        <label for="wname">Name of Wife</label>
-        <input type="text" id="wname" name="wname" placeholder="Wife's name..">
-
-        <input type="submit" value="Submit" class='submit' id='couplesubmitbtn'>
-      </form>
     </div>
   </div>
   

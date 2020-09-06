@@ -56,7 +56,7 @@ body {
 /*Remove space from the top of single children*/
 .tree li:only-child {
   padding-top: 0;
-  padding-left: 10%;
+  left: 25%;
 }
 
 /*Remove left connector from first child and right connector from last child*/
@@ -159,35 +159,20 @@ body {
   font-size: 15px;
   min-width: 200px;
 }
+
 .gender, .color{
   width: 20px;
   height: 20px;
   display: table-cell;
   padding-left:10px;
 }
+
 #male>.color{
   background-color: rgb(155, 255, 130);
 }
 
 #female>.color{
   background-color: rgb(155, 130, 255);
-}
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px rgb(87, 87, 87);
-}
-
-.my-float{
-	margin-top:22px;
 }
 
 .modal {
